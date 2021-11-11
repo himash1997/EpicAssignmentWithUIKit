@@ -27,19 +27,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wIN-Iq-Zru">
-                                <rect key="frame" x="20" y="20" width="374" height="35"/>
+                                <rect key="frame" x="20" y="19.999999999999996" width="374" height="44.666666666666657"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUy-hR-aDi">
-                                        <rect key="frame" x="0.0" y="0.0" width="344" height="35"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="44.666666666666664"/>
                                         <fontDescription key="fontDescription" name="Oswald-Medium" family="Oswald" pointSize="30"/>
                                         <color key="textColor" name="#F0E3CE"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMd-He-uS5">
-                                        <rect key="frame" x="344" y="2.6666666666666679" width="30" height="30.000000000000004"/>
+                                        <rect key="frame" x="344" y="7.3333333333333321" width="30" height="29.999999999999996"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="za1-Cu-w2H">
-                                                <rect key="frame" x="5" y="6.9999999999999982" width="20" height="16.666666666666664"/>
+                                                <rect key="frame" x="5" y="7.0000000000000018" width="20" height="16.666666666666664"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="20" id="Dkw-Ft-gq7"/>
@@ -131,13 +131,13 @@
                                 <rect key="frame" x="0.0" y="566" width="414" height="90"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 / 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9B-cj-r4f">
-                                        <rect key="frame" x="20.000000000000004" y="20" width="32.333333333333343" height="18.666666666666671"/>
+                                        <rect key="frame" x="20" y="20" width="30" height="24"/>
                                         <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="16"/>
                                         <color key="textColor" name="#D6D7D9"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A1h-0C-k3w">
-                                        <rect key="frame" x="20" y="46.666666666666629" width="200" height="2"/>
+                                        <rect key="frame" x="20" y="52" width="200" height="2"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98f-eX-v19">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="2"/>
@@ -168,7 +168,7 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zlz-Ix-gln">
-                                <rect key="frame" x="0.0" y="105" width="414" height="461"/>
+                                <rect key="frame" x="0.0" y="114.66666666666666" width="414" height="451.33333333333337"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="10" id="Quc-ql-K0E">
                                     <size key="itemSize" width="232" height="453"/>
@@ -178,7 +178,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CastCVC" id="2x5-GQ-x8G" customClass="CastCVC" customModule="EpicAssignmentWithUiKit" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="4.666666666666667" width="232" height="451.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="232" height="451.33333333333337"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="O7D-gp-6Df">
                                             <rect key="frame" x="0.0" y="0.0" width="232" height="451.33333333333337"/>
@@ -195,17 +195,17 @@
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZV-a5-JzV">
                                                             <rect key="frame" x="182" y="401.33333333333331" width="30" height="30"/>
-                                                            <color key="backgroundColor" red="0.5708230138" green="0.0058294315819999998" blue="0.0038589867759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="backgroundColor" name="#EF9E78"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="72Z-NK-Tne"/>
                                                                 <constraint firstAttribute="width" constant="30" id="AWo-pr-clJ"/>
                                                             </constraints>
-                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <state key="normal" image="link.circle" catalog="system"/>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-O2-H9d">
                                                             <rect key="frame" x="20" y="333.33333333333331" width="192" height="48"/>
-                                                            <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                                            <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 Why do we use it?
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -226,7 +226,7 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 	lists
 	Start with 'Lorem
 ipsum dolor sit amet...'
-</mutableString>
+</string>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" name="#252A3D"/>
                                                             <nil key="highlightedColor"/>
@@ -404,6 +404,9 @@ ipsum dolor sit amet...'
         </namedColor>
         <namedColor name="#EBEBEB">
             <color red="0.92199999094009399" green="0.92199999094009399" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="#EF9E78">
+            <color red="0.93699997663497925" green="0.62000000476837158" blue="0.47099998593330383" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="#F0E3CE">
             <color red="0.94099998474121094" green="0.88999998569488525" blue="0.80800002813339233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
